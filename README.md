@@ -1,1 +1,1 @@
-This is git repo for AI ML programes
+This is git repo for all AI ML programmes
