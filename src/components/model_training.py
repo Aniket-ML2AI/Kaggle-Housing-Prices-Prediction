@@ -107,7 +107,10 @@ class ModelTrainer:
 
             r2 = r2_score(predicted,y_test)
 
-            return r2
+            return (
+                r2,best_model
+
+            )
 
 
         except Exception as e:
