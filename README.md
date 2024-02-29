@@ -1,1 +1,2 @@
-This is git repo for all AI ML programmes
+This is git repo for all Kaggle Housing Price predictiom
+
