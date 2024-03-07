@@ -1,0 +1,214 @@
+<html>
+<body>
+    <div class="login">
+       <h1>Housing price prediction</h1>
+
+       <form action="{{ url_for('predict_datapoint')}}" method="post">
+        <h1>
+            <legend>Housing price prediction</legend>
+        </h1>
+        <div class="mb-3">
+            <label class="form-label">Neighborhood</label>
+            <select class="form-control" name="Neighborhood" placeholder="Enter Neighborhood" required>
+                <option class="placeholder" selected disabled value="">Select your Neighborhood</option>
+                <option value="CollgCr">
+                    CollgCr
+                </option>
+                <option value="Veenker">
+                    Veenker
+                </option>
+                <option value="Crawfor">
+                    Crawfor
+                </option>
+                <option value="NoRidge">
+                    NoRidge
+                </option>
+                <option value="Somerst">
+                    Somerst
+                </option>
+                <option value="NWAmes">
+                    NWAmes
+                </option>
+                <option value="OldTown">
+                    OldTown
+                </option>
+                <option value="BrkSide">
+                    BrkSide
+                </option>
+                <option value="Sawyer">
+                    Sawyer
+                </option>
+                <option value="NAmes">
+                    NAmes
+                </option>
+                <option value="IDOTRR">
+                    IDOTRR
+                </option>
+                <option value="MeadowV">
+                    MeadowV
+                </option>
+            </select>
+        </div>
+        <div class="mb-3">
+            <label class="form-label">External Quality</label>
+            <select class="form-control" name="ExterQual" placeholder="Enter External Quality" required>
+                <option class="placeholder" selected disabled value="">Select ExterQual</option>
+                <option value="Gd">
+                    Gd
+                </option>
+                <option value="TA">
+                    TA
+                </option>
+                <option value="Ex">
+                    Ex
+                </option>
+                <option value="Fa">
+                    Fa
+                </option>
+            </select>
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Basement Quality</label>
+            <select class="form-control" name="BsmtQual" placeholder="Enter Basement Quality" required>
+                <option class="placeholder" selected disabled value="">Select BsmtQual</option>
+                <option value="Gd">
+                    Gd
+                </option>
+                <option value="TA">
+                    TA
+                </option>
+                <option value="Ex">
+                    Ex
+                </option>
+                <option value="Fa">
+                    Fa
+                </option>
+                <option value=-1>
+                    NaN
+                </option>
+            </select>
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Kitchen Quality</label>
+            <select class="form-control" name="KitchenQual" placeholder="Enter Kitchen Quality" required>
+                <option class="placeholder" selected disabled value="">Select KitchenQual</option>
+                <option value="Gd">
+                    Gd
+                </option>
+                <option value="TA">
+                    TA
+                </option>
+                <option value="Ex">
+                    Ex
+                </option>
+                <option value="Fa">
+                    Fa
+                </option>
+            </select>
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Garage Finish</label>
+            <select class="form-control" name="GarageFinish" placeholder="Enter Garage Finish" required>
+                <option class="placeholder" selected disabled value="">Select GarageFinish</option>
+                <option value="Fin">
+                    Fin
+                </option>
+                <option value= -1>
+                    NaN
+                </option>
+                <option value="RFn">
+                    RFn
+                </option>
+                <option value="Unf">
+                    Unf
+                </option>
+            </select>
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Fire place Quality</label>
+            <select class="form-control" name="FireplaceQu" placeholder="Enter Fireplace Quality" required>
+                <option class="placeholder" selected disabled value="">Select FireplaceQu</option>
+                <option value="Ex">
+                    Ex
+                </option>
+                <option value="-1">
+                    NaN
+                </option>
+                <option value="Fa">
+                    Fa
+                </option>
+                <option value="Gd">
+                    Gd
+                </option>
+                <option value="Po">
+                    Po
+                </option>
+                <option value="TA">
+                    TA
+                </option>
+            </select>
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Foundation</label>
+            <select class="form-control" name="Foundation" placeholder="Enter Foundation Type" required>
+                <option class="placeholder" selected disabled value="">Select Foundation</option>
+                <option value="PConc">
+                    PConc
+                </option>
+                <option value="CBlock">
+                    CBlock
+                </option>
+                <option value="BrkTil">
+                    BrkTil
+                </option>
+                <option value="Wood">
+                    Wood
+                </option>
+                <option value="Slab">
+                    Slab
+                </option>
+                <option value="Stone">
+                    Stone
+                </option>
+            </select>
+        </div>
+
+        <div class="mb0-3">
+            <label class="form-label">Overall Quality between 1-10</label>
+            <input class="form-control" type="number" name="OverallQual"
+                placeholder="Enter your OverallQual" min='1' max='10' />
+        </div>
+        <div class="mb-3">
+            <label class="form-label">GrLivArea</label>
+            <input class="form-control" type="number" name="GrLivArea"
+                placeholder="Enter your GrLivArea" min='100' max='10000' />
+        </div>
+        <div class="mb-3">
+            <label class="form-label">GarageCars</label>
+            <input class="form-control" type="number" name="GarageCars"
+                placeholder="Enter no. of GarageCars" min='0' max='5' />
+        </div>
+        <div class="mb-3">
+            <label class="form-label">TotalBsmtSF</label>
+            <input class="form-control" type="number" name="TotalBsmtSF"
+                placeholder="Enter your TotalBsmtSF" min='100' max='10000' />
+        </div>
+        <div class="mb-3">
+            <label class="form-label">FullBath</label>
+            <input class="form-control" type="number" name="FullBath"
+                placeholder="Enter no. of FullBath" min='0' max='5' />
+        </div>
+        <div class="mb-3">
+            <label class="form-label">YearBuilt</label>
+            <input class="form-control" type="number" name="YearBuilt"
+                placeholder="Enter the YearBuilt" min='1600' max='2020' />
+        </div>
+        <div class="mb-3">
+            <input class="btn btn-primary" type="submit" value="Predict your House Price" required />
+        </div>
+    </form>
+    <h2>
+       The price of the house is {{results}}
+    </h2>
+ </body>
+</html>

@@ -91,6 +91,8 @@ class DataTransformation:
 
             input_features_test_arr = preprocessing_obj.transform(input_features_test)
 
+            print (input_features_test_arr)
+
             input_features_train_arr = input_features_train_arr.toarray()
 
             train_arr = np.hstack([input_features_train_arr,target_feature_train])
