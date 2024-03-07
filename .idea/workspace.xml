@@ -5,19 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f97c74a-0fa5-4bc8-880f-11c87b8fe375" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Notebook/data/test.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Notebook/data/test.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Notebook/data/train.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Notebook/data/train.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/artefacts/evaulation.csv" beforeDir="false" afterPath="$PROJECT_DIR$/artefacts/evaulation.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/artefacts/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/artefacts/model.pkl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/catboost_info/catboost_training.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/catboost_info/catboost_training.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/catboost_info/learn/events.out.tfevents" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/catboost_info/learn/events.out.tfevents" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/catboost_info/time_left.tsv" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/catboost_info/time_left.tsv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/data_transformation.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/data_transformation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pipeline/predict_pipeline.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/pipeline/predict_pipeline.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
