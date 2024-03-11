@@ -6,6 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="4f97c74a-0fa5-4bc8-880f-11c87b8fe375" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/catboost_info/catboost_training.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/catboost_info/catboost_training.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/catboost_info/learn/events.out.tfevents" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/catboost_info/learn/events.out.tfevents" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/catboost_info/learn_error.tsv" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/catboost_info/learn_error.tsv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/catboost_info/time_left.tsv" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/catboost_info/time_left.tsv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,19 +49,21 @@
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
     "Python.app.executor": "Run",
-    "Python.data_ingestion.executor": "Debug",
+    "Python.application.executor": "Run",
+    "Python.data_ingestion.executor": "Run",
     "Python.exception.executor": "Run",
     "Python.logger.executor": "Run",
     "Python.setup.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/Projects/M5 Forecasting Accuracy",
+    "last_opened_file_path": "D:/Projects/MLProjects",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projects\MLProjects" />
       <recent name="D:\Projects\MLProjects\Notebook" />
       <recent name="D:\Projects\MLProjects\Notebook\data" />
     </key>
