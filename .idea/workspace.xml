@@ -6,11 +6,14 @@
   <component name="ChangeListManager">
     <list default="true" id="4f97c74a-0fa5-4bc8-880f-11c87b8fe375" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/artefacts/evaulation.csv" beforeDir="false" afterPath="$PROJECT_DIR$/artefacts/evaulation.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/artefacts/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/artefacts/model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/catboost_info/catboost_training.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/catboost_info/catboost_training.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/catboost_info/learn/events.out.tfevents" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/catboost_info/learn/events.out.tfevents" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/catboost_info/learn_error.tsv" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/catboost_info/learn_error.tsv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/catboost_info/time_left.tsv" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/catboost_info/time_left.tsv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/catboost_info/tmp/cat_feature_index.a5d9f687-9de33336-4ae094f4-861df111.tmp" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,22 +48,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "Python.app.executor": "Run",
-    "Python.application.executor": "Run",
-    "Python.data_ingestion.executor": "Run",
-    "Python.exception.executor": "Run",
-    "Python.logger.executor": "Run",
-    "Python.setup.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/Projects/MLProjects",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Python.app.executor&quot;: &quot;Run&quot;,
+    &quot;Python.application.executor&quot;: &quot;Run&quot;,
+    &quot;Python.data_ingestion.executor&quot;: &quot;Run&quot;,
+    &quot;Python.exception.executor&quot;: &quot;Run&quot;,
+    &quot;Python.logger.executor&quot;: &quot;Run&quot;,
+    &quot;Python.setup.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Projects/MLProjects&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Projects\MLProjects" />
