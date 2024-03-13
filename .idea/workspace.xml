@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f97c74a-0fa5-4bc8-880f-11c87b8fe375" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.ebextensions/python" beforeDir="false" afterPath="$PROJECT_DIR$/.ebextensions/python.config" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
